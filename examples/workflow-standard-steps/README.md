@@ -1,6 +1,21 @@
 # Standard Workflow
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Intro](#intro)
+- [Obtaining a `plugins.yaml` from a controller](#obtaining-a-pluginsyaml-from-a-controller)
+- [Preparing your `plugins.yaml`](#preparing-your-pluginsyaml)
+  - [Minimum viable vs raw list](#minimum-viable-vs-raw-list)
+  - [Minimum viable vs generation-only list](#minimum-viable-vs-generation-only-list)
+  - [Manual alterations](#manual-alterations)
+- [Creating your first `plugins.yaml` and `plugin-catalog.yaml`](#creating-your-first-pluginsyaml-and-plugin-catalogyaml)
+- [Updating your `plugins.yaml` and `plugin-catalog.yaml`](#updating-your-pluginsyaml-and-plugin-catalogyaml)
+  - [The reasoning behind the `-A` source plugins only option](#the-reasoning-behind-the--a-source-plugins-only-option)
+- [Making changes](#making-changes)
+  - [Adding a plugin](#adding-a-plugin)
+  - [Removing a plugin](#removing-a-plugin)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Intro
